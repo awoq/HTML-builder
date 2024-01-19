@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const fullPath = path.join(__dirname, 'text.txt');
-const writeStream = fs.createWriteStream(fullPath,  { flags: 'a' }, 'utf-8');
+const writeStream = fs.createWriteStream(fullPath, { flags: 'a' }, 'utf-8');
 const stdout = process.stdout;
 const stdin = process.stdin;
 
